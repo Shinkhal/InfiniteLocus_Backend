@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import './Admin.css'
 
-// ✅ Use deployed backend API
 const API_BASE = 'https://infinitelocus-backend-5r1w.onrender.com/api'
 
 const initialForm = { id: '', name: '', code: '', description: '' }
